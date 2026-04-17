@@ -1,8 +1,8 @@
-# 🌐 Prompt Translator (Tercüman)
+# Prompt Translator (Tercüman)
 
 Bu yetenek, Türkçe olarak tasarladığınız prompt fikirlerini, yapay zekanın (LLM) en yüksek performansla anlayabileceği **"AI-Friendly English"** (Yapay Zeka Dostu İngilizce) formatına dönüştürür.
 
-## ✨ Neden Bu Skill'i Kullanmalısınız?
+## Neden Bu Skill'i Kullanmalısınız?
 
 Yapay zeka modelleri (özellikle Claude 4.6/4.7 ve GPT-5.4 serisi) İngilizce talimatlarda çok daha hassas sonuçlar verir. Ancak sadece çeviri yapmak yetmez; promptun içindeki **niyeti, kısıtlamaları ve formatı** korumak gerekir. 
 
@@ -14,7 +14,7 @@ Yapay zeka modelleri (özellikle Claude 4.6/4.7 ve GPT-5.4 serisi) İngilizce ta
 
 ---
 
-## 🚀 Kurulum ve Kullanım
+## Kurulum ve Kullanım
 
 ### 1. Dosyaları Alın
 Klasör içindeki `skill.md` dosyasının içeriğini kopyalayın.
