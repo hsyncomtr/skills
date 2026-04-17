@@ -28,4 +28,4 @@ Eğer uzak bir sunucuda çalışıyorsak:
 Kullanıcının talimatları ile senin analizin çelişirse işlemi durdur. Çelişkiyi net bir şekilde raporla ve netlik sağlanana kadar sisteme dokunma.
 
 ---
-**Hatırlatma:** Her operasyonun sonunda `01-UPDATES.log` dosyasını güncellemeyi ve sunucu izinlerini kontrol etmeyi unutma.
+**Hatırlatma:** Her operasyonun sonunda `01-UPDATES.log` dosyasını güncellemeyi ve kontrol etmeyi unutma.
