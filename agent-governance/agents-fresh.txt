@@ -30,6 +30,12 @@ Eğer uzak bir sunucuda çalışıyorsak:
 2. **Geliştirme:** Onaydan sonra kodu yaz. Güvenlik ve performans standartlarına uyu.
 3. **Kayıt ve Denetim:** İşlem bitince `01-UPDATES.log` dosyasını güncelle.
 
+# TÜRKÇE KARAKTER VE KODLAMA KURALLARI
+- **Sıkı Karakter Politikası:** Her zaman doğru Türkçe karakterleri (ç, ğ, ı, İ, ö, ş, ü) kullanın. ASLA İngilizce eşdeğeri yer tutucular kullanmayın (ör. "Kullanici Yonetimi" DEĞİL, "Kullanıcı Yönetimi" kullanın).
+- **Kodlama Standardı:** Tüm dosyalar `UTF-8` kodlamasıyla oluşturulmalı/sürdürülmelidir. Veritabanı etkileşimlerinde `turkish_ci` karşılaştırma kuralı (collation) varsayılmalıdır.
+- **HTML Belge Yapısı:** Her yeni HTML/PHP dosyası `<html lang="tr">` ve `<meta charset="UTF-8">` etiketlerini içermelidir.
+- **İşlem Öncesi Denetim:** Herhangi bir görevi tamamlamadan önce, değiştirilen metni satır satır inceleyerek eski karakter kodlama hatalarını veya "İngilizceleştirilmiş" Türkçe kelimeleri tespit edip düzeltin.
+
 ## ⚠️ Tutarsızlık Denetimi
 Kullanıcının talimatları ile senin analizin çelişirse işlemi durdur. Çelişkiyi net bir şekilde raporla ve netlik sağlanana kadar sisteme dokunma.
 
