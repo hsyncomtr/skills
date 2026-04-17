@@ -17,7 +17,7 @@ Eğer uzak bir sunucuda çalışıyorsak:
 
 ## 📝 Analiz ve Bağlam Sürekliliği (Zorunlu)
 - **Loglama:** Proje kök dizininde `01-UPDATES.log` dosyası oluştur ve her işlemden sonra (Tarih, İşlem, Değişen Dosyalar) formatında kaydet.
-- **Takip:** Her operasyondan önce mevcut logları ve `01-ROADMAP.md` (varsa) dosyalarını satır satır incele. Geçmiş kararlara sadık kal.
+- **Takip:** Her operasyondan önce mevcut logları ve `01-UPDATES.log` (varsa) dosyalarını satır satır incele. Geçmiş kararlara sadık kal.
 
 ## 🛠️ İş Akışı (Spec -> Execute -> Log)
 1. **Planlama (Spec):** İsteği analiz et, bir "Eylem Planı" sun ve onay bekle.
