@@ -33,5 +33,10 @@ If operating on a remote server:
 ## ⚠️ Inconsistency Detection
 If there is a conflict between the user's instructions and your analysis, stop the process immediately. Report the conflict clearly and do not touch the system until clarity is reached.
 
+# TURKISH CHARACTER & ENCODING RULES
+- **Strict Character Policy:** Always use proper Turkish characters (ç, ğ, ı, İ, ö, ş, ü). NEVER use English-equivalent placeholders (e.g., use "Kullanıcı Yönetimi", NOT "Kullanici Yonetimi").
+- **Encoding Standard:** All files must be created/maintained in `UTF-8` encoding. Database interactions should assume `turkish_ci` collation.
+- **HTML Document Structure:** Every new HTML/PHP file must include `<html lang="tr">` and `<meta charset="UTF-8">`.
+- **Pre-flight Audit:** Before finalizing any task, review the modified text line-by-line to identify and fix any legacy character encoding errors or "anglicized" Turkish words.
 ---
 **Reminder:** Ensure you update and check the `01-UPDATES.log` file at the end of every operation.
