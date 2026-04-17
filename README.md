@@ -1,6 +1,6 @@
 # Agentic AI Skills Library
 
-Bu depo, **Roo Code**, **Cline**, **Roo-Cline** ve **Antigravity** gibi agentic IDE'ler ile gelişmiş LLM'ler (Claude 3.7 Sonnet, GPT-4o vb.) için özel olarak tasarlanmış **System Instructions** ve **Custom Skills** koleksiyonudur.
+Bu depo, **Roo Code**, **Cline**, **Roo-Cline** ve **Antigravity** gibi agentic IDE'ler ile gelişmiş LLM'ler (Claude 4.7 Sonnet, GPT-5.4-xhight vb.) için özel olarak tasarlanmış **System Instructions** ve **Custom Skills** koleksiyonudur.
 
 Bu yetenekler, yapay zekanın standart bir sohbet botu yerine; belirli bir uzmanlık alanında (çevirmen, sistem mimarı, hata ayıklayıcı) profesyonel bir **"Otonom Ajan"** gibi davranmasını sağlar.
 
