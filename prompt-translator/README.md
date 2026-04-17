@@ -4,7 +4,7 @@ Bu yetenek, Türkçe olarak tasarladığınız prompt fikirlerini, yapay zekanı
 
 ## ✨ Neden Bu Skill'i Kullanmalısınız?
 
-Yapay zeka modelleri (özellikle Claude 3.5/3.7 ve GPT-4/5 serisi) İngilizce talimatlarda çok daha hassas sonuçlar verir. Ancak sadece çeviri yapmak yetmez; promptun içindeki **niyeti, kısıtlamaları ve formatı** korumak gerekir. 
+Yapay zeka modelleri (özellikle Claude 4.6/4.7 ve GPT-5.4 serisi) İngilizce talimatlarda çok daha hassas sonuçlar verir. Ancak sadece çeviri yapmak yetmez; promptun içindeki **niyeti, kısıtlamaları ve formatı** korumak gerekir. 
 
 **Tercüman şunları yapar:**
 - Türkçe metindeki anlatım bozukluklarını giderir.
