@@ -1,6 +1,6 @@
-# Agentic AI Skills Library
+# 🤖 Agentic AI Skills Library
 
-Bu depo, **Roo Code**, **Cline**, **Roo-Cline** ve **Antigravity** gibi agentic IDE'ler ile gelişmiş LLM'ler (Claude 4.7 Sonnet, GPT-5.4-xhight vb.) için özel olarak tasarlanmış **System Instructions** ve **Custom Skills** koleksiyonudur.
+Bu depo, **Roo Code**, **Cline**, **Roo-Cline** ve **Antigravity** gibi agentic IDE'ler ile gelişmiş LLM'ler (Claude 4.7 Sonnet, GPT-5 vb.) için özel olarak tasarlanmış **System Instructions** ve **Custom Skills** koleksiyonudur.
 
 Bu yetenekler, yapay zekanın standart bir sohbet botu yerine; belirli bir uzmanlık alanında (çevirmen, sistem mimarı, hata ayıklayıcı) profesyonel bir **"Otonom Ajan"** gibi davranmasını sağlar.
 
@@ -18,6 +18,7 @@ Bu yetenekler, yapay zekanın standart bir sohbet botu yerine; belirli bir uzman
 
 | Yetenek Adı | Açıklama | Dosya Yolu |
 | :--- | :--- | :--- |
+| **🛡️ Agent Governance** | AI ajanları için katı denetim, güvenlik ve loglama protokolü. | [`/agent-governance`](./agent-governance/) |
 | **🌐 Prompt Translator** | Türkçe niyetleri korur, AI için en optimize İngilizce çeviriyi yapar. | [`/prompt-translator`](./prompt-translator/) |
 | **🚀 Code Architect** | *Geliştiriliyor* - Modüler ve ölçeklenebilir mimari tasarımı. | - |
 | **🐛 Debug Master** | *Geliştiriliyor* - Derinlemesine log analizi ve hata tespiti. | - |
@@ -26,9 +27,9 @@ Bu yetenekler, yapay zekanın standart bir sohbet botu yerine; belirli bir uzman
 
 ## 📥 Kurulum ve Kullanım
 
-### 1. Proje Bazlı (Roo Code / Cline)
+### 1. Proje Bazlı (Roo Code / Cline / Cursor)
 Kullanmak istediğiniz yeteneğin klasöründeki `skill.md` içeriğini kopyalayın:
-1. Projenizin ana dizininde bir `.clinerules` dosyası oluşturun.
+1. Projenizin ana dizininde bir `.clinerules` (veya Cursor için `.cursorrules`) dosyası oluşturun.
 2. Kopyaladığınız metni bu dosyaya yapıştırın.
 3. AI, bu projede artık o yeteneğe sahip bir uzman gibi davranacaktır.
 
@@ -48,7 +49,7 @@ Yeni bir yetenek eklemek, mevcutları iyileştirmek veya bir hata bildirmek içi
 ---
 
 ### 💡 Mimari Felsefesi
-Her "skill", **"Minimal müdahale, maksimum netlik"** prensibiyle yazılmıştır. AI'nın orijinal niyetinizi bozmasını engellerken, çıktı kalitesini en üst seviyeye çıkarmayı hedefler.
+Her "skill", **"Minimal müdahale, maksimum netlik"** prensibiyle yazılmıştır. AI'nın orijinal niyetinizi bozmasını engellerken, çıktı kalitesini en üst seviyeye çıkarmayı ve otonom hataları minimize etmeyi hedefler.
 
 ---
 *Hazırlayan: [Hüseyin Arslandoğan](https://github.com/hsyncomtr)*
