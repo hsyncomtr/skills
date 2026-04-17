@@ -1,4 +1,4 @@
-# 🤖 Agentic AI Skills Library
+# Agentic AI Skills Library
 
 Bu depo, **Roo Code**, **Cline**, **Roo-Cline** ve **Antigravity** gibi agentic IDE'ler ile gelişmiş LLM'ler (Claude 4.7 Sonnet, GPT-5 vb.) için özel olarak tasarlanmış **System Instructions** ve **Custom Skills** koleksiyonudur.
 
@@ -6,7 +6,7 @@ Bu yetenekler, yapay zekanın standart bir sohbet botu yerine; belirli bir uzman
 
 ---
 
-## 🛠 Desteklenen Araçlar
+## Desteklenen Araçlar
 
 * **Roo Code / Cline:** `.clinerules` dosyasına ekleyerek veya "Custom Instructions" alanına yapıştırarak kullanılabilir.
 * **VS Code AI Extensions:** IDE genelindeki sistem mesajlarına entegre edilebilir.
@@ -14,18 +14,18 @@ Bu yetenekler, yapay zekanın standart bir sohbet botu yerine; belirli bir uzman
 
 ---
 
-## 📂 Yetenek Kataloğu
+## Yetenek Kataloğu
 
 | Yetenek Adı | Açıklama | Dosya Yolu |
 | :--- | :--- | :--- |
-| **🛡️ Agent Governance** | AI ajanları için katı denetim, güvenlik ve loglama protokolü. | [`/agent-governance`](./agent-governance/) |
-| **🌐 Prompt Translator** | Türkçe niyetleri korur, AI için en optimize İngilizce çeviriyi yapar. | [`/prompt-translator`](./prompt-translator/) |
-| **🚀 Code Architect** | *Geliştiriliyor* - Modüler ve ölçeklenebilir mimari tasarımı. | - |
-| **🐛 Debug Master** | *Geliştiriliyor* - Derinlemesine log analizi ve hata tespiti. | - |
+| ** Agent Governance** | AI ajanları için katı denetim, güvenlik ve loglama protokolü. | [`/agent-governance`](./agent-governance/) |
+| ** Prompt Translator** | Türkçe niyetleri korur, AI için en optimize İngilizce çeviriyi yapar. | [`/prompt-translator`](./prompt-translator/) |
+| ** Code Architect** | *Geliştiriliyor* - Modüler ve ölçeklenebilir mimari tasarımı. | - |
+| ** Debug Master** | *Geliştiriliyor* - Derinlemesine log analizi ve hata tespiti. | - |
 
 ---
 
-## 📥 Kurulum ve Kullanım
+## Kurulum ve Kullanım
 
 ### 1. Proje Bazlı (Roo Code / Cline / Cursor)
 Kullanmak istediğiniz yeteneğin klasöründeki `skill.md` içeriğini kopyalayın:
