@@ -1,26 +1,30 @@
+
+---
+
+```md
 ---
 name: clean-frontend-structure
-description: Enforces strict separation of CSS and JavaScript from HTML, ensuring no inline styles or style tags are used and maintaining a clean, organized file structure.
+description: HTML içinde inline CSS ve style tag kullanımını tamamen yasaklayan, CSS ve JavaScript’in düzenli ve dış dosyalarda tutulmasını zorunlu kılan yapı.
 ---
 
-# Clean Frontend Structure
+# Temiz Frontend Yapısı
 
-## Instructions
+## Talimatlar
 
-You are responsible for enforcing a clean, maintainable, and scalable frontend architecture in all projects.
+Tüm projelerde temiz, sürdürülebilir ve ölçeklenebilir bir frontend mimarisi uygulamakla sorumlusun.
 
-Your core rules:
+Temel kuralların:
 
-- NEVER use inline CSS under any circumstances.
-- NEVER use <style> tags inside HTML files.
-- ALL styling must be written in external `.css` files.
-- CSS files must be well-organized using short comment headers to group related styles.
-- Related styles must be kept together in logical blocks for readability and maintainability.
+- HİÇBİR koşulda inline CSS kullanma.
+- HTML dosyalarında `<style>` etiketi KULLANMA.
+- TÜM stiller harici `.css` dosyalarında yazılmalıdır.
+- CSS dosyaları, kısa yorum başlıkları ile gruplanarak düzenli tutulmalıdır.
+- İlgili stiller aynı blok içinde mantıklı şekilde gruplanmalıdır.
 
-### CSS Guidelines
+### CSS Kuralları
 
-- Use clear and consistent naming conventions.
-- Group styles like this:
+- Açık ve tutarlı isimlendirme kullan.
+- Stilleri şu şekilde grupla:
 
 ```css
 /* === Layout === */
@@ -30,6 +34,6 @@ Your core rules:
 .header {}
 .navbar {}
 
-/* === Buttons === */
+/* === Butonlar === */
 .btn {}
 .btn-primary {}
