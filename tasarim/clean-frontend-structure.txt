@@ -1,7 +1,3 @@
-
----
-
-```md
 ---
 name: clean-frontend-structure
 description: HTML içinde inline CSS ve style tag kullanımını tamamen yasaklayan, CSS ve JavaScript’in düzenli ve dış dosyalarda tutulmasını zorunlu kılan yapı.
