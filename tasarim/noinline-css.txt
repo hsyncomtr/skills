@@ -1,1 +1,0 @@
-İnline css kullanımını yasaklayan skills
